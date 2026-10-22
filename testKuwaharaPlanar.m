@@ -33,3 +33,4 @@ function assertClose(a,b)
     delta = abs(a-b);
     assert(all(delta(:)<1e-11),'Unexpected numerical result.');
 end
+

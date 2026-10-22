@@ -154,3 +154,5 @@ function indices = symmetricIndices(positions, dimension)
     t = mod(positions-1, 2*dimension);
     indices = min(t, 2*dimension-1-t)+1;
 end
+
+
